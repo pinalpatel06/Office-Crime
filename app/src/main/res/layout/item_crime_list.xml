@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:minHeight="?attr/listPreferredItemHeight"
+                android:orientation="vertical"
+                android:paddingEnd="?attr/listPreferredItemPaddingRight"
+                android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+                android:paddingRight="?attr/listPreferredItemPaddingRight"
+                android:paddingStart="?attr/listPreferredItemPaddingLeft">
+
+    <CheckBox
+        android:id="@+id/cb_crime_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_crime_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/cb_crime_status"
+        android:layout_toStartOf="@+id/cb_crime_status"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAppearance="?attr/textAppearanceSearchResultTitle"
+        tools:text="title"/>
+
+    <TextView
+        android:id="@+id/tv_crime_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_crime_title"
+        android:layout_alignLeft="@+id/tv_crime_title"
+        android:layout_alignRight="@+id/tv_crime_title"
+        android:layout_alignStart="@+id/tv_crime_title"
+        android:layout_below="@+id/tv_crime_title"
+        tools:text="date"/>
+
+
+</RelativeLayout>

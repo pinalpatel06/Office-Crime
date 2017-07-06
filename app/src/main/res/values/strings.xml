@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Office Crime</string>
+    <string name="no_data">No Data Found</string>
+    <string name="action_add">Add</string>
+    <string name="details">Details</string>
+    <string name="is_solved">Is Solved</string>
+    <string name="btn_date">Date Pending</string>
+    <string name="btn_criminal_text">Criminal</string>
+</resources>
